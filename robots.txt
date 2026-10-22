@@ -6,4 +6,4 @@ Allow: /about.html
 Allow: /contact.html
 
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: http://2wxvdptrzyhhyaybbnjrcas5uebiffazvnin2fspdzdefe3hq7jx2zid.onion/sitemap.xml
