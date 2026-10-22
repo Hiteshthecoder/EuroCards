@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About us | Euro Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/euro-cards-logo.png" type="image/x-icon">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./about.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand brand-image" href="index.html" aria-label="Euro Cards home"><img
+                src="assets/euro-cards-logo.png" alt="Euro Cards"></a>
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+        <nav class="main-nav">
+            <a href="index.html" data-i18n="home">Home</a>
+            <a class="active" href="about.html" data-i18n="about">About us</a>
+            <a href="contact.html" data-i18n="contact">Contact</a>
+        </nav>
+        <div class="header-tools">
+            <label class="language-select">
+                <span id="languageFlag">🇬🇧</span>
+                <select id="languageSelect" aria-label="Language">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pl">Polski</option>
+                    <option value="de">Deutsch</option>
+                </select>
+            </label>
+        </div>
+    </header>
+
+    <main class="about-main">
+        <div class="section-wrap">
+            <div class="about-hero-card">
+                <div class="eyebrow"><span></span><span data-i18n="since">Established 2017</span></div>
+                <h1 data-i18n="aboutTitle">Built for independence & seamless service.</h1>
+                <p id="aboutContentDesc" data-i18n="aboutContent">
+                    Eurocards have been selling cloned cards for 7 years now on different platforms so why did we need
+                    to make our own website here. Well the reason is the troubles we faced with all those platforms that
+                    provided us a place to sell our cards; we were grateful to them, but there were frequent troubles
+                    related to payments and escrow services. So finally we are here on our own platform to continue
+                    serving our customers securely and reliably.
+                </p>
+
+                <div class="about-stats-grid">
+                    <div class="stat-box">
+                        <b>7+ Years</b>
+                        <span>Experience</span>
+                    </div>
+                    <div class="stat-box">
+                        <b>100%</b>
+                        <span>Independent Platform</span>
+                    </div>
+                    <div class="stat-box">
+                        <b>Secure</b>
+                        <span>Direct Escrow & Payments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-wrap">
+            <a class="brand brand-image" href="index.html" aria-label="Euro Cards home"><img
+                    src="assets/euro-cards-logo.png" alt="Euro Cards"></a>
+            <p data-i18n="since">Since 2017</p>
+            <p data-i18n="legal">All card products are subject to eligibility and applicable terms.</p>
+            <nav>
+                <a href="about.html" data-i18n="about">About us</a>
+                <a href="contact.html" data-i18n="contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
